@@ -5,9 +5,21 @@ import ImageView from "../components/ImageView";
 const ImageScreen = () => {
   return (
     <View>
-      <ImageView title="beach" image="" />
-      <ImageView title="forest" image="" />
-      <ImageView title="mountain" image="" />
+      <ImageView
+        title="beach"
+        imageSource={require("../../assets/beach.jpg")}
+        imageScore={1}
+      />
+      <ImageView
+        title="forest"
+        imageSource={require("../../assets/forest.jpg")}
+        imageScore={5}
+      />
+      <ImageView
+        title="mountain"
+        imageSource={require("../../assets/mountain.jpg")}
+        imageScore={9}
+      />
     </View>
   );
 };
