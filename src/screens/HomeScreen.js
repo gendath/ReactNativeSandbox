@@ -26,6 +26,13 @@ const HomeScreen = ({ navigation }) => {
           navigate("Images");
         }}
       />
+      <Button
+        style={styles.button}
+        title="Go to Counter Demo"
+        onPress={() => {
+          navigate("Counter");
+        }}
+      />
     </View>
   );
 };
