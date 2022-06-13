@@ -33,6 +33,13 @@ const HomeScreen = ({ navigation }) => {
           navigate("Counter");
         }}
       />
+      <Button
+        style={styles.button}
+        title="Go to Color Demo"
+        onPress={() => {
+          navigate("Colors");
+        }}
+      />
     </View>
   );
 };
